@@ -1,0 +1,19 @@
+a=input("Enter the sequence:")
+arr=[]
+flag=0
+for x in range(len(a)):
+    for y in range(x+1,len(a)):
+        if a[x]==a[y]:
+            for z in arr:
+                if a[x]==z:
+                    flag+=1
+                    break
+            if flag==0:
+                arr.append(a[x])
+            else:
+                flag-=1
+print("The repeated characters in the given sequence")
+print(arr)
+                    
+                    
+    
