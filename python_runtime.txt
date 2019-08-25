@@ -1,0 +1,3 @@
+print("enter the sequence")
+a=input()
+print(a)
