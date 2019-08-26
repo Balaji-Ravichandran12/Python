@@ -1,0 +1,5 @@
+#sum of two numbers in python
+a=eval(input("enter the value of a"))
+b=eval(input("enter the value of b"))
+c=a+b
+print(c)
